@@ -20,7 +20,7 @@ function App(){
 
   useEffect(() => {
     // Fetch Asteroid Data API
-    fetch("http://127.0.0.1:8000/api/tracking")
+    fetch("https://benmanafe-asteroid-detection.hf.space/api/tracking")
     .then(response => response.json())
     // Store the raw JSON data and completes the Loading Spin
     .then(data => {
